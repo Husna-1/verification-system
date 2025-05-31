@@ -429,7 +429,7 @@ $welcomeMessage = "Digital Verification System for Transport Operators";
                     <?php if(isset($_SESSION['user_id'])): ?>
                         <li><a href="dashboard.php">Dashboard</a></li>
                     <?php else: ?>
-                        <li><a href="../login/login.php">Login</a></li>
+                        <li><a href="../login/loginForm.php">Login</a></li>
                     <?php endif; ?>
                 </ul>
             </nav>
